@@ -41,6 +41,7 @@ const Results = () => {
               <ProductCards
                 key={product.id}
                 product={product}
+                renderDesc={false}
                 renderAdd={true}
               />
             ))}
